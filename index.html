@@ -19,16 +19,25 @@
     <div class="row" id="image_content">
       <div class="card col-md-4"></div>
       <div id="image_card" class="card col-md-4">
+      <br>
+      <br>
           <img src="" id="image" data-id=""/>
-          <h4 id="name">Title of image goes here</h4>
+          <h4 id="name" align="center">Title of image goes here</h4>
+          <br>
+          <div align="center">
           <span>Likes:
             <span id="likes">Likes Go Here</span>
           </span>
           <button id="like_button">Like</button>
-          <form id="comment_form">
-            <input id="comment_input" type="text" name="comment" placeholder="Add Comment"/>
+          </div>
+          <br>
+          <br>
+          <form id="comment_form" align="center">
+            <input id="comment_input" type="text" name="comment" placeholder="Add Comment" required/>
             <input type="submit" value="Submit"/>
           </form>
+          <br>
+          <p align="center"><strong><u>User's comments:</u></strong></p>
           <ul id="comments">
                <!-- <li> for each comment goes here -->
           </ul>
